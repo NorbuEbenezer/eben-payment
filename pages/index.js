@@ -34,10 +34,10 @@ export default function Home() {
         <ActionButtons>
           <button
             type="button"
-            class="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-800 dark:bg-white dark:border-gray-700 dark:text-gray-900 dark:hover:bg-gray-200 mr-2 mb-2"
+            className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-800 dark:bg-white dark:border-gray-700 dark:text-gray-900 dark:hover:bg-gray-200 mr-2 mb-2"
           >
             <svg
-              class="w-10 h-3 mr-2 -ml-1"
+              className="w-10 h-3 mr-2 -ml-1"
               viewBox="0 0 660 203"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -56,10 +56,10 @@ export default function Home() {
 
           <button
             type="button"
-            class="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 mr-2 mb-2"
+            className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 mr-2 mb-2"
           >
             <svg
-              class="h-4 mr-2 -ml-1 w-7"
+              className="h-4 mr-2 -ml-1 w-7"
               viewBox="0 0 601 360"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -95,10 +95,10 @@ export default function Home() {
         <ActionButtons2>
           <button
             type="button"
-            class="text-gray-900 bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 mr-2 mb-2"
+            className="text-gray-900 bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 mr-2 mb-2"
           >
             <svg
-              class="w-4 h-4 mr-2 -ml-1 text-[#626890]"
+              className="w-4 h-4 mr-2 -ml-1 text-[#626890]"
               aria-hidden="true"
               focusable="false"
               data-prefix="fab"
@@ -117,10 +117,10 @@ export default function Home() {
 
           <button
             type="button"
-            class="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 mr-2 mb-2"
+            className="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 mr-2 mb-2"
           >
             <svg
-              class="w-4 h-4 mr-2 -ml-1"
+              className="w-4 h-4 mr-2 -ml-1"
               aria-hidden="true"
               focusable="false"
               data-prefix="fab"
