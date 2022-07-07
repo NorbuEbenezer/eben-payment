@@ -31,7 +31,7 @@ export default function Home() {
           </Profile>
         </Header>
         <Amount>Ride from Gangtok to Rangpo</Amount>
-        <Amount2>Total amount: ₹ 2500</Amount2>
+        <Amount2>Total amount: ₹ 3000</Amount2>
         <ActionButtons>
           <button
             type="button"
@@ -140,24 +140,22 @@ export default function Home() {
         </ActionButtons2>
       </ActionItems>
 
-      <Link href="/end">
-        <PaymentButtonContainer>
-          <button
-            onClick={() => {
-              checkout({
-                lineItems: [
-                  {
-                    price: "price_1LIpjkSDNryHai6iiai7xtcQ",
-                    quantity: 1,
-                  },
-                ],
-              });
-            }}
-          >
-            Pay Now
-          </button>
-        </PaymentButtonContainer>
-      </Link>
+      <PaymentButtonContainer>
+        <PaymentButton
+          onClick={() => {
+            checkout({
+              lineItems: [
+                {
+                  price: "price_1LIpjkSDNryHai6iiai7xtcQ",
+                  quantity: 1,
+                },
+              ],
+            });
+          }}
+        >
+          Pay Now
+        </PaymentButton>
+      </PaymentButtonContainer>
     </Wrapper>
   );
 }
