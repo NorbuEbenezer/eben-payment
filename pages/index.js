@@ -5,6 +5,7 @@ import tw from "tailwind-styled-components";
 import Map from "./components/Map";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { checkout } from "../checkout";
 
 export default function Home() {
   return (
@@ -141,7 +142,20 @@ export default function Home() {
 
       <Link href="/end">
         <PaymentButtonContainer>
-          <PaymentButton>Pay Now</PaymentButton>
+          <button
+            onClick={() => {
+              checkout({
+                lineItems: [
+                  {
+                    price: "price_1LIpjkSDNryHai6iiai7xtcQ",
+                    quantity: 1,
+                  },
+                ],
+              });
+            }}
+          >
+            Pay Now
+          </button>
         </PaymentButtonContainer>
       </Link>
     </Wrapper>
